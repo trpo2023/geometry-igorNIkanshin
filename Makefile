@@ -1,3 +1,4 @@
-all:
-	gcc -Wall -Werror -o hw helloworld.c
-	./hw
+main:geometry.c
+	gcc -Wall -Werror -o gm geometry.c
+run:gm
+	./gm
